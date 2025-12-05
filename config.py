@@ -1,0 +1,7 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+MONGO_URI="mongodb+srv://raft_user:EZn1wZbMHZJY9Om4@rafting.plagdm1.mongodb.net/raft_booking?retryWrites=true&w=majority&appName=rafting"
+
+SECRET_KEY="some-long-random-secure-key"
+
